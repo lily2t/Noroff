@@ -1,0 +1,1 @@
+document.writeln("I am sentence number 3 and i was printed from a JS file.")
