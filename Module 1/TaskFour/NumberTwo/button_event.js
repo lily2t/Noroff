@@ -6,7 +6,7 @@ do {
 //let x = 0;
 function increment() {
     for (let i = 1; i <= 100; i++) {
-        document.writeln(i)
+        document.writeln´´(i)
     }
     document.writeln('Game Over')
 
