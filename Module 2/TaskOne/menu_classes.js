@@ -6,7 +6,7 @@ class Menu {
         this.price = price;
     }
     info() {
-        return 'This is menu' + this.name + this.price + this.ingredients
+        return `This is ${this.name} and the price is ${this.price} `;
     }
 
 
@@ -15,8 +15,11 @@ class Menu {
 class Pizza extends Menu {
     constructor(name, price, ingredients) {
         super(name, price)
-        this.ingredients = [];
+        this.ingredients = ingredients;
 
+    }
+    info() {
+        return super.info() + ` and the content is ${this.ingredients}`
     }
 
 }
