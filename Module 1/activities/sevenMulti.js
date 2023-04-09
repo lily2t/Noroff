@@ -23,6 +23,7 @@ while (j < arrlen) {
 let arrayleng = deadLock.length; */
 let bool = true;
 
+//let's the user to enter until even number then exits with alert displaying the even number
 while (bool) {
     let userInput = parseFloat(prompt('Enter a number.'))
 

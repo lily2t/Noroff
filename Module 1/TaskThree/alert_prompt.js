@@ -19,8 +19,8 @@ while (true) {
     x = (isNaN(x) || x < 0 || x > 1)
         ? prompt("Invalid number! Please enter a number between 0 and 1")
         : (x < 0 || x > 0.5)
-            ? alert("The number you entered was not correct.")
-            : alert('Your number was:' + ' ' + x)
+                ? alert("The number you entered was not correct.")
+                : alert('Your number was:' + ' ' + x)
 
 }
 
